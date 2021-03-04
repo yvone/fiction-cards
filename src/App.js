@@ -1,23 +1,45 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+} from 'react-router-dom';
+
+import Welcome from './images/welcome.jpeg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <nav className="Menu">
+          <Link className="Menu_link">Hogwarts</Link>
+          <Link className="Menu_link">Winterfell</Link>
+          <Link className="Menu_link">The Shire</Link>
+        </nav>
+
+        <Switch>
+          <Route path="/" exact>
+            <section className="Page">
+              <h1>Welcome to Fiction Cards App! 🧝‍♀️ 🧙‍♀️ 🤴</h1>
+              <img
+                className="Page_img"
+                src={Welcome}
+                alt="misterious path in the forest"
+              />
+            </section>
+          </Route>
+
+          <Route>
+            <section className="Page">
+              NOT FOUND, that route doesn't exist
+             </section>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
