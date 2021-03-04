@@ -12,6 +12,24 @@ import Welcome from './images/welcome.jpeg';
 import './App.css';
 
 function App() {
+  const hogwartsInformation = {
+    creature: "The Sorting Hat",
+    information: "The Sorting Hat is one of the cleverest enchanted objects most witches and wizards will ever meet. It literally contains the intelligence of the four founders, can speak (through a rip near its brim) and is skilled at Legilimency, which enables it to look into the wearer’s head and divine his or her capabilities or mood.",
+    author: "J.K. Rowling",
+  };
+
+  const winterfellInformation = {
+    character: "Ayra Stark",
+    description: "The younger of Ned and Cat's two daughters. A tomboy, she would rather fence than dance. Her direwolf is named Nymeria, after a warrior queen.",
+    actress: "Maisie Williams",
+  };
+
+  const theShireInformation = {
+    title: "The Hobbit",
+    summary: "The Hobbit, fantasy novel by J.R.R. Tolkien, published in 1937. The novel introduced Tolkien’s richly imagined world of Middle Earth in its Third Age and served as a prologue to his The Lord of the Rings.",
+    author: "Tolkien",
+  };
+
   return (
     <div className="App">
       <Router>
