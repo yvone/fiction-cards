@@ -1,0 +1,82 @@
+.cuadroHogwarts{
+    margin: auto;
+    margin-top: 120px;
+    width: 1055px;
+    height: 581px;
+    background: #242633;
+}
+
+#imagen50{
+    width: 450px;
+    height: 460px;
+    left: 6.07%;
+    right: 51.28%;
+    top: 10.33%;
+    bottom: 10.5%;
+    margin-left: -500px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+#titulo{
+    position: absolute;
+    left: 63.98%;
+    right: 20.19%;
+    top: 10.33%;
+    bottom: 82.62%;
+    color: #fff;
+    font-family: Pirata One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 41px;
+    margin-top: 180px;
+    margin-left: -150px;
+}
+
+#parrafo{
+    position: absolute;
+    width: 307px;
+    height: 278px;
+    left: 63.98%;
+    right: 6.92%;
+    top: 21.51%;
+    bottom: 30.64%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-left: -120px;
+}
+
+#autor{
+    position: absolute;
+    left: 64.08%;
+    right: 23.7%;
+    top: 73.49%;
+    bottom: 23.06%;
+    color: #9FA1AD;
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: -180px;
+}
+
+#Boton{
+    position: absolute;
+    width: 160px;
+    height: 50px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: none;
+    color: #fff;    
+    font-size: 12px;
+    margin-left: 100px;
+    margin-top: -40px;
+}
