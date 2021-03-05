@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 
 import Welcome from './images/welcome.jpeg';
+import HogwartsCard from './HogwartsCard';
 
 import './App.css';
 
@@ -34,7 +35,7 @@ function App() {
     <div className="App">
       <Router>
         <nav className="Menu">
-          <Link className="Menu_link">Hogwarts</Link>
+          <Link className="Menu_link" to='/hogwarts'>Hogwarts</Link>
           <Link className="Menu_link">Winterfell</Link>
           <Link className="Menu_link">The Shire</Link>
         </nav>
@@ -49,6 +50,10 @@ function App() {
                 alt="misterious path in the forest"
               />
             </section>
+          </Route>
+
+          <Route path='/hogwarts'>
+            {HogwartsCard}
           </Route>
 
           <Route>
