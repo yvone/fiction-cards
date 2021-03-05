@@ -10,6 +10,7 @@ import {
 import Welcome from './images/welcome.jpeg';
 
 import './App.css';
+import TheShire from './TheShire';
 
 function App() {
   const hogwartsInformation = {
@@ -36,10 +37,14 @@ function App() {
         <nav className="Menu">
           <Link className="Menu_link">Hogwarts</Link>
           <Link className="Menu_link">Winterfell</Link>
-          <Link className="Menu_link">The Shire</Link>
+          <Link to="/shire" className="Menu_link">The Shire</Link>
         </nav>
 
         <Switch>
+          <Route path="/shire" exact>
+              <TheShire />
+          </Route>
+
           <Route path="/" exact>
             <section className="Page">
               <h1>Welcome to Fiction Cards App! 🧝‍♀️ 🧙‍♀️ 🤴</h1>
