@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Hobbit from './TheHobbit';
 import {
   BrowserRouter as Router,
   Route,
@@ -33,14 +33,17 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <nav className="Menu">
-          <Link className="Menu_link">Hogwarts</Link>
-          <Link className="Menu_link">Winterfell</Link>
-          <Link className="Menu_link">The Shire</Link>
-        </nav>
-
         <Switch>
-          <Route path="/" exact>
+          <Route path='/shire' exact={true}>
+            <Hobbit />
+          </Route>
+
+          <Route path="/" exact={true}>
+            <nav className="Menu">
+              <Link className="Menu_link">Hogwarts</Link>
+              <Link className="Menu_link">Winterfell</Link>
+              <Link className="Menu_link" to='/shire'>The Shire</Link>
+            </nav>
             <section className="Page">
               <h1>Welcome to Fiction Cards App! 🧝‍♀️ 🧙‍♀️ 🤴</h1>
               <img

@@ -1,0 +1,78 @@
+.principal {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 20%;
+    bottom: 20%;
+    background: #7E597D;
+}
+
+#parrafoprincipal {
+    position: absolute;
+    left: 32.52%;
+    right: 36.64%;
+    top: 11.88%;
+    bottom: 46.87%;
+    font-family: Ubuntu;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#hobbit {
+    position: absolute;
+    left: 70.08%;
+    right: 6.22%;
+    top: 11.88%;
+    bottom: 11.88%;
+}
+
+#tituloprincipal {
+    position: absolute;
+    left: 5.38%;
+    right: 74.2%;
+    top: 11.88%;
+    bottom: 76.24%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+#h66 {
+    position: absolute;
+    left: 5.38%;
+    right: 81.53%;
+    top: 22.84%;
+    bottom: 70.63%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+#botoncomprar {
+    position: absolute;
+    left: 5.38%;
+    right: 0%;
+    top: 85%;
+    bottom: 20%;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 2px;
+    color: #FFFFFF; 
+    background: #7E597D; 
+    padding: 20px 20px;
+}
