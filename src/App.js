@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 import {
   BrowserRouter as Router,
   Route,
@@ -7,8 +8,9 @@ import {
   Link,
 } from 'react-router-dom';
 
-import Welcome from './images/welcome.jpeg';
 
+import Welcome from './images/welcome.jpeg';
+import Hogwarts from './Hogwarts';
 import './App.css';
 
 function App() {
@@ -33,29 +35,39 @@ function App() {
   return (
     <div className="App">
       <Router>
+
         <nav className="Menu">
-          <Link className="Menu_link">Hogwarts</Link>
+          <Link to = "/Hogwarts">Hogwarts</Link>
           <Link className="Menu_link">Winterfell</Link>
           <Link className="Menu_link">The Shire</Link>
         </nav>
+      <Switch>
 
-        <Switch>
-          <Route path="/" exact>
-            <section className="Page">
-              <h1>Welcome to Fiction Cards App! 🧝‍♀️ 🧙‍♀️ 🤴</h1>
-              <img
-                className="Page_img"
-                src={Welcome}
-                alt="misterious path in the forest"
-              />
-            </section>
-          </Route>
+      <Route path= "/Hogwarts" exact={true} >
+        <Hogwarts/>
+      </Route>
 
-          <Route>
-            <section className="Page">
-              NOT FOUND, that route doesn't exist
-             </section>
-          </Route>
+            <Route path= "" exact>
+              <section className="Page">
+                <h1>Welcome to Fiction Cards App! 🧝‍♀️ 🧙‍♀️ 🤴</h1>
+                <img
+                  className="Page_img"
+                  src={Welcome}
+                  alt="misterious path in the forest"
+                />
+              </section>
+            </Route>
+
+
+            <Route path="/" exact={true}></Route>
+
+
+
+            <Route>
+              <section className="Page">
+                NOT FOUND, that route doesn't exist
+              </section>
+            </Route>
         </Switch>
       </Router>
     </div>
