@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Ayra from './Ayra'
 import {
   BrowserRouter as Router,
   Route,
@@ -35,7 +35,7 @@ function App() {
       <Router>
         <nav className="Menu">
           <Link className="Menu_link">Hogwarts</Link>
-          <Link className="Menu_link">Winterfell</Link>
+          <Link className="Menu_link" to='/starks'>Winterfell</Link>
           <Link className="Menu_link">The Shire</Link>
         </nav>
 
@@ -51,7 +51,10 @@ function App() {
             </section>
           </Route>
 
-          <Route>
+          <Route path="/starks">
+            {Ayra}
+          </Route>
+          <Route path="/" exact>
             <section className="Page">
               NOT FOUND, that route doesn't exist
              </section>

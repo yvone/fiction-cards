@@ -1,0 +1,46 @@
+#contenido{
+    text-align: center;
+    margin: 10% 10% 10% 10%;
+    border: 3px solid black;
+    display: inline-block;
+    padding-bottom: 3%;
+}
+#imagen{
+    width: 100%;
+    height: 90%;
+}
+.nombre h1{
+    Font-family: Lato;
+    font-style: bold;
+    Font-size: 40px;
+    Line-height: 48px;
+    Line-height: 100%;
+}
+.subtitulo h4{
+    Font-family: Varela;
+    font-style: regular;
+    Font-size: 12px;
+    Line-height: 16px;
+    Line-height: 100%;
+}
+#texto{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.texto p{
+
+    text-align: left;
+    Font-family: Karma;
+    Font-style: Regular;
+    Font-size: 100%;
+    Line-height: 100px;
+    Line-height: 100%;
+}
+#boton{
+    margin-top: 30px;
+}
+#boton button{
+    color:black;
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+}
