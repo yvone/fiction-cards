@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Card from './card';
 import {
   BrowserRouter as Router,
   Route,
@@ -10,6 +10,7 @@ import {
 import Welcome from './images/welcome.jpeg';
 
 import './App.css';
+import reactDom from 'react-dom';
 
 function App() {
   const hogwartsInformation = {
@@ -36,7 +37,7 @@ function App() {
         <nav className="Menu">
           <Link className="Menu_link">Hogwarts</Link>
           <Link className="Menu_link">Winterfell</Link>
-          <Link className="Menu_link">The Shire</Link>
+          <Link to = "/shire" className="Menu_link">The Shire</Link>
         </nav>
 
         <Switch>
@@ -49,8 +50,13 @@ function App() {
                 alt="misterious path in the forest"
               />
             </section>
-          </Route>
+          </Route> 
+          <Route path="/shire" exact>
 
+            <React.StrictMode>
+              <Card />
+            </React.StrictMode>
+          </Route>
           <Route>
             <section className="Page">
               NOT FOUND, that route doesn't exist

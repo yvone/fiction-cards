@@ -1,0 +1,89 @@
+.cuerpocard{
+    position: absolute;
+    width: 1190px;
+    height: 463px;
+    left: 125px;
+    top: 281px;
+    background: #7E597D;
+
+}
+.izq{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    position: absolute;
+left: 5.38%;
+right: 74.2%;
+top: 11.88%;
+bottom: 76.24%;
+
+font-family: Ubuntu;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 55px;
+
+color: #FFFFFF;
+
+}
+.sub{
+    position: absolute;
+    left: 5.38%;
+    right: 83.53%;
+    top: 30.84%;
+    bottom: 70.63%;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
+.btn{
+    position: absolute;
+    left: 4.87%;
+    right: 81.68%;
+    top: 77.32%;
+    bottom: 11.88%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    text-align: center;
+    border: 2px;
+    border-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background: #7E597D;
+
+}
+.imagen{
+    position: absolute;
+left: 70.08%;
+right: 6.22%;
+top: 11.88%;
+bottom: 11.88%;
+}
+.txt{
+    position: absolute;
+left: 32.52%;
+right: 36.64%;
+top: 11.88%;
+bottom: 46.87%;
+
+font-family: Ubuntu;
+font-style: italic;
+font-weight: 300;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
