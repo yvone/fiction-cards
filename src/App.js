@@ -51,9 +51,23 @@ function App() {
             </section>
           </Route>
 
+          <Route path="/Hogwarts">
+            <section className = "Potter">
+              <h1 id = "HP">hogwartsInformation.creature</h1>
+              <img
+                className = "Harry" 
+                src = {Sorting}
+                alt = "Sorting hat"
+              />
+              <p id = "Texto">hogwartsInformation.information</p>
+              <p id = "autor">hogwartsInformation.autor</p>
+              <button id = "boton">READ MORE</button>
+            </section>
+          </Route>
+          
           <Route>
             <section className="Page">
-              NOT FOUND, that route doesn't exist
+              NOT FOUND, that route doesn't exist xD
              </section>
           </Route>
         </Switch>
