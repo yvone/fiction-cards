@@ -1,0 +1,99 @@
+
+.Bio{
+    text-align: center;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;  
+    padding: auto;
+}
+
+.img{
+    
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 42.74%;
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25))
+}
+
+
+.mid{
+    text-align: center;
+}
+
+.nombre{
+  
+    left: 37.65%;
+    right: 37.65%;
+    top: 61.78%;
+    bottom: 31.82%;
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.nombreReal{
+    
+    left: 38.43%;
+    right: 38.56%;
+    top: 70.31%;
+    bottom: 27.56%;
+
+    font-family: Varela;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.txt{
+    
+    left: 7.06%;
+    right: 7.06%;
+    top: 76.96%;
+    bottom: 16.25%;
+    font-family: Karma;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.video{
+    align-items: center;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: 4px solid #333333;
+    box-sizing: border-box;
+    background-color:#FFFFFF ;
+}
+
+.ver{
+    
+    width: 93px;
+    height: 15px;
+    left: calc(50% - 93px/2 + 0.5px);
+    top: calc(50% - 15px/2 + 0.5px);
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
